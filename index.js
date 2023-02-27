@@ -1,6 +1,6 @@
 let string = "";
 let buttons = document.querySelectorAll("button");
-
+let backspace = document.getElementById("Backspace");
 buttons.forEach((button) => {
     button.addEventListener('click', (e)=> {
         if (e.target.innerHTML == "=") {
@@ -16,6 +16,9 @@ buttons.forEach((button) => {
             string = string + e.target.innerHTML
             document.querySelector('input').value = string ;
             string = string + "x";
+        } else if (e.target == backspace){
+            string = string.slice(0, string.length - 1);
+            document.querySelector('input').value = string
         } else {
             string = string + e.target.innerHTML
             document.querySelector('input').value = string ;
