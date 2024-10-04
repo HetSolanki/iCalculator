@@ -1,9 +1,9 @@
 {
-    "id": "/",
+    "id": "/iCalculator",
     "start_url": "/iCalculator",
-    "scope": "/",
+    "scope": "/iCalculator/",
     "name": "Calculator",
-    "shot_name": "Calculator",
+    "short_name": "Calculator",
     "display": "standalone",
     "icons": [
         {
