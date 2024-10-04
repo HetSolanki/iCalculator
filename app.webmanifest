@@ -1,15 +1,31 @@
 {
-    "id": "/iCalculator",
-    "start_url": "/iCalculator",
-    "scope": "/iCalculator/",
-    "name": "Calculator",
-    "short_name": "Calculator",
-    "display": "standalone",
-    "icons": [
-        {
-            "src": "icons/calculator-512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ]
+  "id": "/iCalculator",
+  "start_url": "/iCalculator",
+  "scope": "/iCalculator/",
+  "name": "Calculator",
+  "short_name": "Calculator",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icons/calculator-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+
+  "description": "Count your every calculations with iCalculator",
+  "screenshots": [
+    {
+      "src": "icons/calculator-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "icons/calculator-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ]
 }
