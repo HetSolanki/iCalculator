@@ -1,0 +1,20 @@
+{
+    "id": "/",
+    "start_url": "/",
+    "scope": "/",
+    "name": "Calculator",
+    "shot_name": "Calculator",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "icons/calculator-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/calculator-512.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        }
+    ]
+}

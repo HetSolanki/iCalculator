@@ -26,3 +26,7 @@ buttons.forEach((button) => {
     })
 
 })
+
+function validate() {
+    console.log("Helo");
+}

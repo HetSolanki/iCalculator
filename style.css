@@ -33,6 +33,7 @@ input[type=text] {
     font-size: large;
     font-weight: bold;
     border-radius: 5px;
+    border: none    ;
     /* background-color: black; */
     /* color: white; */
 }
@@ -61,4 +62,3 @@ input[type=text] {
 .top-btn:hover {
     background-color: rgb(111, 111, 111);
 }
-

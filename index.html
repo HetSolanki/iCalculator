@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iCalculator</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="app.webmanifest">
 </head>
 <body>
     
     <div class="Container">
         <h1 class="text-center">iCalculator</h1>
         <center>
-            <input type="text" readonly>
+            <input type="text" onkeypress="">
+            <label id="error"></label>
         </center>
         <div class="item-align">
             <button class="top-btn">AC</button>
