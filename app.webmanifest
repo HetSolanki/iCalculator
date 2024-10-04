@@ -1,6 +1,6 @@
 {
     "id": "/",
-    "start_url": "/",
+    "start_url": "/iCalculator",
     "scope": "/",
     "name": "Calculator",
     "shot_name": "Calculator",
