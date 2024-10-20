@@ -30,3 +30,7 @@ buttons.forEach((button) => {
 function validate() {
     console.log("Helo");
 }
+
+if ("setAppBadge" in navigator) {
+    navigator.setAppBadge(24)
+}

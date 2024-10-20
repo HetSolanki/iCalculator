@@ -5,6 +5,7 @@
   "name": "Calculator",
   "short_name": "Calculator",
   "display": "standalone",
+  "display_override": ["window-controls-overlay"],
   "icons": [
     {
       "src": "icons/calculator-512.png",
